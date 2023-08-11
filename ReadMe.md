@@ -30,7 +30,7 @@
    - open the terminal and enter ```./server``` after that write ``` npm i``` or if you have pnpm ``` pnpm i``` 
 ### OPEN THE PROJECT ! 
 
-  - in both terminals that are opened introduce the command "npm run dev" to start the server and the web page
+  - in both terminals that are opened introduce the command ```npm run dev``` to start the server and the web page
 
 
  
@@ -85,6 +85,7 @@
 
  #### Bogdan Diaconu : https://github.com/bogdandiaconupv
  #### Paul Costea : https://github.com/Paaul2121
+ #### Iacob Oliver : https://github.com/IacobOliver
 
       
 
