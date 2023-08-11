@@ -39,21 +39,32 @@
 ### HOW TO PLAY !
 
   - MOVEMENT :  W, A, S, D AND SPACE
-  - if you wanna press any buttons you gotta press escape for you cursor to appear and click it
-  Locations : 
-  - at the table in the center you will find the pokemons that you have, the pokemons that tou bought
-  - in front you have a map thing, if you go there you can open the map and search for battles but first you gotta select pokemons from inventory at the table that i mentioned
+  - If you wanna press any buttons you gotta press escape for you cursor to appear and click it
+  ### Locations : 
+  - At the table in the center you will find the pokemons that you have, the pokemons that you bought.
+
+![Alt text](readMeImages/image5.png)
+
+  - In front you have a map thing, if you go there you can open the map and search for battles but first you gotta select pokemons from inventory at the table that i mentioned
   right before
-  - at the cabin at the right you can go at the stairs and open the pokedex where you can see the pokedex with the pokemons
+
+  ![Alt text](readMeImages/image6.png)
 
 
+  - At the cabin at the right you can go at the stairs and open the pokedex where you can see the pokedex with the pokemons
+
+  ![Alt text](readMeImages/image4.png)
+
+  ### So go at the map, fight some pokemons and win money and experience !!!
+
+#
  # IMPORTANT !!!
-  -  if you wanna load more pokemons you need to go in /frontend/src/Components/AllPokenons.jsx and at the line 21 you will see this : 
-   ```
-   useEffect(() => {
+  -  if you wanna load more pokemons you need to go in ```/frontend/src/aComponents/AllPokenons.jsx``` and at the line 21 you will see this 
+
+    useEffect(() => {
         let gatheringPokemons = [];
 
-        for (let i = 1; i <20 (CHANGE THIS NUMBER) ; i++) {    
+        for (let i = 1; i <20 ```<-- CHANGE THIS NUMBER``` ; i++) {    
             fetch(`https://pokeapi.co/api/v2/pokemon/${i}`)       
                 .then(res => res.json())
                 .then(res => gatheringPokemons.push(res))
@@ -64,15 +75,18 @@
             setLoadig(true)
         }, 1000);
     }, [])
-    ```
+   - HERE YOU CAN CHANGE THE NUMBERS OF POKEMONS ( MAX 1000, NOT RECOMENDED!!!), FOR A GOOD EXPERIENCE LOAD 100-500 POKEMONS !!!
 
-    - HERE YOU CAN CHANGE THE NUMBERS OF POKEMONS ( MAX 1000, NOT RECOMENDED!!!), FOR A GOOD EXPERIENCE LOAD 100-500 POKEMONS !!!
 
-    ### YOU MAY HAVE A PROBLEM WHEN REFRESHING THE PAGE !!! IT WONT RELOAD COMPLETLY WE DONT KNOW WHY, BUY YOU JUST GOTTA CHANGE THE URL 
-    ### FROM " http://localhost:5173" TO " http://localhost:5173/1" AND IF IT DOSENT WORK AGAIN CHANGE THE URL BACK AND SO ON !!!
+#### YOU MAY HAVE A PROBLEM WHEN REFRESHING THE PAGE !!! IT WONT RELOAD COMPLETLY WE DONT KNOW WHY, BUY YOU JUST GOTTA CHANGE THE URL  FROM  ```http://localhost:5173``` TO ```http://localhost:5173/1``` AND IF IT DOSENT WORK AGAIN CHANGE THE URL BACK AND SO ON !!!
 
-    ## Credits 
-    ### PEOPLE WHO WORKED ON THIS PROJECT 
-    Iacob Oliver : https://github.com/IacobOliver
-    Bogdan Diaconu : https://github.com/bogdandiaconupv
-    Paul Costea : https://github.com/Paaul2121
+## Credits 
+### PEOPLE WHO WORKED WITH ON THIS PROJECT 
+
+ #### Bogdan Diaconu : https://github.com/bogdandiaconupv
+ #### Paul Costea : https://github.com/Paaul2121
+
+      
+
+   
+  
